@@ -1,0 +1,32 @@
+/* src/App.css */
+.App {
+  text-align: center;
+  padding: 20px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.tile {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  background-color: #f0f0f0;
+  color: #000;
+  border: 1px solid #ccc;
+  cursor: pointer;
+  font-size: 20px;
+  user-select: none;
+}
+
+#outputString {
+  font-size: 20px;
+  font-family: monospace;
+  word-wrap: break-word;
+}
